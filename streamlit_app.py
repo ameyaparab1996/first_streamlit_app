@@ -43,9 +43,6 @@ try:
 
 except URLError as e:
   streamlit.error()
-  
-# don't run anything past here
-streamlit.stop()
 
 streamlit.header("View Our Fruit List - Add Your Favourites!")
 
